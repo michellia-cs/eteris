@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200; 300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+/* Homepage */
+body{
+position: relative;
+width: 1518px;
+height: 2966px;
+background: linear-gradient(165.32deg, #FFF1D4 0%, #D0A76A 100%);
+font-family: 'Poppins', sans-serif;
+margin: 0px;
+margin-right: 0px;
+}
+
+/* Logo_Eteris*/
+.logo{
+    position: absolute;
+    width: 88px;
+    height: 43px;
+    left: 121px;
+    top: 103px;
+}
+
+/* Navigation Bar */
+nav{
+    position: absolute;
+    height: 21px;
+    left: 410px;
+}nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 100px;
+}
+nav ul li a{
+	color: #125611;
+    text-decoration: none;
+}
+nav ul li a:hover{
+	color: #125611;
+	transition: .4s;
+    text-shadow: 0 0 0.5em #12561146, 0 0 0.5em #12561146, 0 0 0.5em #12561146
+}
+
+/* background_images */
+.quiz_slogan{
+    position: absolute;
+    width: 1518px;
+    height: 613px;
+    left: 0px;
+    top: 191px;
+}
+
+.quiz_slogan1{
+    position: absolute;
+    width: 1518px;
+    height: 613px;
+    left: 0px;
+    top: 1200px;
+}
+
+/* Discover Your Needs */
+.head-quiz{
+position: absolute;
+height: 67.24px;
+left: 1px;
+top: 326.12px;
+
+font-family: 'Poppins';
+font-style: italic;
+font-weight: 400;
+font-size: 56px;
+line-height: 84px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/* Discover our products */
+.head-quiz1{
+    position: absolute;
+    height: 67.24px;
+    left: 1px;
+    top: 1000px;
+    
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 84px;
+    text-align: center;
+    
+    color: #6E311F;
+    }
+
+.pra p{
+    position: absolute;
+    width: 1517px;
+    height: 55.37px;
+    left: 3px;
+    top: 479.39px;
+    
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.btn{
+/* Take Your Quiz! */
+position: absolute;
+
+height: 27.69px;
+left: 190px;
+top: 600px;
+text-decoration: none;
+list-style-type: none;
+font-family: 'Poppins';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+
+/* identical to box height, or 200% */
+text-align: center;
+text-align: middle;
+background-color:#FFF1D4;
+padding: 10px;
+border-radius: 10px;
+line-height: 1px;
+border: 20px solid transparent;
+color: #125611;
+}
+.btn:hover{
+	color: #125611;
+	transition: .4s;
+    text-shadow: 0 0 0.5em #12561146, 0 0 0.5em #12561146, 0 0 0.5em #12561146
+}
