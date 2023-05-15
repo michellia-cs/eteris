@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="1_AboutUs_Eteris.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About Us</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about-us">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida non risus eget semper. Nullam at justo augue. Duis tincidunt luctus odio ut fringilla. Sed blandit elit non lorem ornare, a elementum sapien luctus.</p>
+            <p>Suspendisse imperdiet euismod ex, eu dapibus purus eleifend ac. Donec consequat, enim sit amet semper posuere, elit augue iaculis velit, at varius risus lectus sed dolor.</p>
+            <h2>Our Mission</h2>
+            <p>Nullam faucibus ex in convallis semper. Duis mattis congue ipsum, sed viverra justo pharetra in. Praesent laoreet massa ac ex ultrices, eu tincidunt metus lacinia.</p>
+            <h2>Our Team</h2>
+            <ul>
+                <li>John Smith - CEO</li>
+                <li>Jane Doe - COO</li>
+                <li>Bob Johnson - CFO</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Company Name</p>
+    </footer>
+</body>
+</html>
