@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="1_Products_Eteris.css">
+</head>
+<body>
+    <header>
+        <h1>Product Catalog</h1>
+    </header>
+    <main>
+        <section class="product-catalog">
+            <?php
+                // Sample array of products
+                $products = array(
+                    array(
+                        'name' => 'Product 1',
+                        'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                        'price' => 9.99,
+                        'image' => 'product1.jpg'
+                    ),
+                    array(
+                        'name' => 'Product 2',
+                        'description' => 'Praesent non mauris a velit lacinia maximus.',
+                        'price' => 19.99,
+                        'image' => 'product2.jpg'
+                    ),
+                    array(
+                        'name' => 'Product 3',
+                        'description' => 'Fusce ac ullamcorper neque. Nullam tincidunt ante at ex scelerisque.',
+                        'price' => 14.99,
+                        'image' => 'product3.jpg'
+                    )
+                );
+
+                // Loop through products and display them
+                foreach ($products as $product) {
+                    echo '<div class="product">';
+                    echo '<img src="images/' . $product['image'] . '" alt="' . $product['name'] . '">';
+                    echo '<h2>' . $product['name'] . '</h2>';
+                    echo '<p>' . $product['description'] . '</p>';
+                    echo '<p class="price">$' . number_format($product['price'], 2) . '</p>';
+                    echo '<a href="product_details.php?id=' . urlencode($product['name']) . '">View Details</a>';
+                    echo '</div>';
+                }
+            ?>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Company Name</p>
+    </footer>
+</body>
+</html>
